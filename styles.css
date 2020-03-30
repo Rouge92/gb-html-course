@@ -1,0 +1,1387 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    margin: 0 auto 0 auto;
+    max-width: 100%;
+    text-align: left;
+    background-image: url(img/22.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    position: relative;
+    max-width: 971px;
+    height: 629px;
+    width: 972px;
+    margin: 0 auto;
+}
+
+.left {
+    position: relative;
+    display: inline-block;
+    width: 30%;
+}
+
+.right {
+    position: relative;
+    display: inline-block;
+    width: 69%;
+}
+
+.header {
+    height: 83px;
+    background-color: #000000;
+    opacity: 0.5;
+}
+
+.logo1 {
+    padding-top: 22px;
+    width: 169px;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 22.36px;
+    letter-spacing: 0.77px;
+}
+
+.logo2 {
+    width: 171px;
+    height: 12px;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22.36px;
+    text-transform: uppercase;
+    /* Text style for "GAMES" */
+    letter-spacing: 2.09em;
+}
+
+
+.header_contacts {
+    height: 35px;
+    /* Style for "+123 456 7" */
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22.36px;
+    /* Text style for "+123 456 7" */
+    letter-spacing: 0.36px;
+    text-align: center;
+    float: left;
+    margin-top: 23px;
+    display: flex;
+
+
+
+}
+
+.header_contacts img {
+    padding-right: 14px;
+}
+
+.tel {
+    padding-right: 39px;
+    padding-top: 8px;
+}
+
+.em {
+    padding-top: 8px;
+}
+
+.email {
+    /* Style for "info@examp" */
+    height: 35px;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22.36px;
+    /* Text style for "info@examp" */
+    letter-spacing: 0.36px;
+    display: inline-block;
+    position: absolute;
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+
+}
+
+
+
+.serch {
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    padding-left: 15px;
+    border-left: 1px solid #ffffff;
+}
+
+.P_serch {
+    position: absolute;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 0px;
+
+
+}
+
+#pr {
+    /* Style for "Прямоуголь" */
+    width: 208px;
+    height: 38px;
+    border: 1px solid #ffffff;
+    float: right;
+    margin-top: 23px;
+
+
+}
+
+
+.menu {
+    margin-top: 32px;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.menu_list {
+    list-style-type: none;
+    float: left;
+    width: auto;
+    text-align: center;
+
+}
+
+.menu_link {
+    width: 511px;
+    height: 16px;
+    color: #000000;
+    font-family: "Roboto Condensed";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22.36px;
+    letter-spacing: 0.36px;
+    text-decoration: none;
+    padding-bottom: 29px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.menu_link:hover {
+    color: #ffffff;
+}
+
+.menu_link_active {
+    color: #ffffff;
+    letter-spacing: 0.36px;
+    border-bottom: 3px solid #ffffff;
+}
+
+.nuc {
+    /* Style for "Nunc eget" */
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 18px;
+    font-weight: 400;
+    /* Text style for "N, unc ege" */
+    letter-spacing: 0.18px;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-top: 213px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid;
+}
+
+.morbi {
+    /* Style for "Morbi in n" */
+
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 48px;
+    /* Text style for "M, orbi in" */
+    letter-spacing: 0.6px;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-top: 355px;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    margin-right: 12px;
+
+
+}
+
+.soc {
+    padding-left: 15px;
+    padding-top: 12px;
+}
+
+.social {
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-top: 480px;
+
+}
+
+.about {
+    position: relative;
+    margin-top: 81px;
+}
+
+.about_img {
+    float: right;
+    width: 540px;
+    height: 338px;
+    display: inline-block;
+}
+
+.about h1 {
+    /* Style for "About Us!" */
+
+    color: #f44336;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36px;
+    position: absolute;
+}
+
+.about p {
+    /* Style for "Nemo enim" */
+    width: 398px;
+    height: 203px;
+    color: #999999;
+    font-family: "Roboto Condensed";
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+    /* Text style for "Nemo enim" */
+    letter-spacing: 0.12px;
+    display: inline-block;
+    margin-top: 77px;
+    margin-bottom: 58px;
+}
+
+.wrapper2 {
+    margin: 0 auto 0 auto;
+    max-width: 100%;
+    text-align: left;
+    background-color: #f7f7f7;
+    height: 762px;
+}
+
+.site_header {
+    /* Style for "Services" */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f44336;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    display: flex;
+    padding-top: 92px;
+    padding-bottom: 91px;
+
+}
+
+.serv_info_l {
+    margin-right: 45px;
+    height: 405px;
+    display: inline-block;
+    width: 50%;
+}
+
+.serv_info_r {
+    margin-left: 45px;
+    height: 405px;
+    display: inline-block;
+    width: 50%;
+}
+
+.info_h {
+    /* Style for "Repreh Qui" */
+
+    color: #000000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    /* Text style for "Repreh Qui" */
+    letter-spacing: 0.16px;
+    display: inline-block;
+    text-align: right;
+    margin-bottom: 0px;
+    padding-bottom: 18px;
+}
+
+.info_h_active {
+    color: #f44336;
+}
+
+.info_p {
+    /* Style for "Itaque ear" */
+    color: #999999;
+    font-family: "Roboto Condensed";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    /* Text style for "Itaque ear" */
+    letter-spacing: 0.12px;
+    float: left;
+    display: inline-block;
+    width: auto;
+    text-align: right;
+    color: #999999;
+    margin-right: 60px;
+}
+
+.circle_servises {
+    width: 102px;
+    height: 102px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #666666;
+    background-color: #e1e1e1;
+}
+
+.circle_servises_active {
+    background-color: #f44336;
+}
+
+.sil {
+    display: flex;
+    position: relative;
+    text-align: right;
+    height: 102px;
+    padding-bottom: 86px;
+
+}
+
+.sil img {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    margin-right: 42px;
+    margin-left: 42px;
+}
+
+.info_pr {
+    /* Style for "Itaque ear" */
+    color: #999999;
+    font-family: "Roboto Condensed";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    /* Text style for "Itaque ear" */
+    letter-spacing: 0.12px;
+    float: right;
+    display: inline-block;
+    width: auto;
+    text-align: left;
+    color: #999999;
+    margin-left: 60px;
+}
+
+.sir img {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+
+.info_hr {
+    /* Style for "Repreh Qui" */
+
+    color: #000000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    /* Text style for "Repreh Qui" */
+    letter-spacing: 0.16px;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 0px;
+    padding-bottom: 18px;
+}
+
+.sir {
+    display: flex;
+    position: relative;
+    text-align: left;
+    height: 102px;
+    padding-bottom: 86px;
+
+}
+
+.circle_servisesr {
+    width: 102px;
+    height: 102px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #666666;
+    background-color: #e1e1e1;
+    float: right;
+}
+
+.item {
+    width: 271px;
+    height: 376px;
+    background-color: #f7f7f7;
+    float: right;
+    margin-right: 29px;
+    margin-bottom: 29px;
+}
+
+.item_name {
+    /* Style for "Assasin’s" */
+    width: 168px;
+    height: 16px;
+    color: #000000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 15px;
+    text-transform: uppercase;
+    position: absolute;
+    text-align: center;
+    margin-top: 19px;
+    margin-left: 51px;
+    margin-bottom: 70px;
+}
+
+.item_button {
+    /* Style for "Прямоуголь" */
+    width: 130px;
+    height: 30px;
+    background-color: #f44336;
+    text-align: center;
+    color: #fee7e5;
+    border: none;
+    margin-top: 62px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 13px;
+
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.gallery {
+    width: 1200px;
+    height: 700px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 186px;
+}
+
+.gallery2 {
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    margin-bottom: 186px;
+    height: 1314px;
+
+
+    position: relative;
+
+}
+
+
+.tes_header {
+    /* Style for "Testimonia" */
+    width: 277px;
+    height: 39px;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-top: 480px;
+}
+
+.servises {
+    width: 990px;
+    height: 690px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.wrapper3 {
+    margin: 0 auto 0 auto;
+    max-width: 100%;
+    background-image: url(img/3.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.testimonial {
+    /* Style for "Testimonia" */
+    height: 39px;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 85px;
+}
+
+.quoteimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    padding-bottom: 51px;
+
+}
+
+.quote {
+    /* Style for "Donec feug" */
+    width: 935px;
+    height: 136px;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    line-height: 24px;
+
+}
+
+.sign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 96px;
+}
+
+.john {
+    font-family: "Roboto - Bold Condensed";
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.founder {
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+}
+
+.team_header {
+    /* Style for "Services" */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f44336;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    display: flex;
+    padding-top: 92px;
+    padding-bottom: 61px;
+
+}
+
+.person_container {
+    width: 1200px;
+    height: 785px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+}
+
+.person {
+    width: 271px;
+    height: 520px;
+    padding-right: 30px;
+    padding-bottom: 76px;
+}
+
+.person_name {
+    color: #f44336;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.person_job {
+    color: #838383;
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 48px;
+}
+
+.person_soc {
+    display: flex;
+}
+
+#square {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #000000;
+    margin-right: 17px;
+}
+
+.wrapper4 {
+    margin: 0 auto 0 auto;
+    max-width: 100%;
+    background-image: url(img/4.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.testimonial2 {
+    /* Style for "Testimonia" */
+    height: 39px;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 86px;
+    padding-bottom: 53px;
+}
+
+.sub {
+    height: 55px;
+    width: 499px;
+    padding-left: 30px;
+
+
+}
+
+.sub_button {
+    width: 119px;
+    height: 53px;
+    background-color: #f44336;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 48px;
+    margin-left: 12px;
+    border: none;
+}
+
+.sub_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.name {
+    height: 42px;
+    width: 470px;
+    border: 1px solid #999999;
+    margin-bottom: 21px;
+
+    padding-left: 13px;
+}
+
+.sub_email {
+    height: 42px;
+    width: 470px;
+    border: 1px solid #999999;
+    margin-bottom: 21px;
+    padding-left: 13px;
+
+}
+
+.message {
+    height: 168px;
+    width: 470px;
+    border: 1px solid #999999;
+    margin-bottom: 21px;
+    padding-left: 13px;
+    padding-bottom: 130px;
+}
+
+.sub_button1 {
+    height: 40px;
+    width: 140px;
+    color: #ffffff;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #f44336;
+
+}
+
+.contact {
+    width: 470px;
+    height: 353px;
+    float: right;
+}
+
+.contact_h4 {
+    color: #f44336;
+    font-family: "Roboto Condensed";
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 48px;
+    padding-bottom: 18px;
+}
+
+.contact_p {
+    color: #9e9e9e;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 17px;
+}
+
+.contact_text {
+    padding-right: 115px;
+}
+
+.p {
+    color: #f44336;
+}
+
+.site_map {
+    /* Style for "Services" */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f44336;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    display: flex;
+    padding-top: 92px;
+    padding-bottom: 25px;
+
+}
+
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer {
+    margin: 0 auto 0 auto;
+    max-width: 100%;
+    height: 71px;
+    background-color: #000000;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: "Arial Narrow";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    /* Text style for "©,  2017 И" */
+    letter-spacing: 0.16px;
+    padding-top: 29px;
+
+}
+
+.events_header {
+    width: 570px;
+    height: 43px;
+    color: #000000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 48px;
+    border-bottom: 1px solid #c5c5c5;
+    padding-bottom: 15px;
+}
+
+.events_header img {
+    float: right;
+}
+
+.eve_img {
+    padding-top: 32px;
+    padding-bottom: 34px;
+}
+
+.asume_header {
+    color: #000000;
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 48px;
+    width: 570px;
+    height: 43px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+}
+
+.asume_header p {
+    padding-left: 14px;
+    margin: 0px;
+}
+
+.asume_text {
+    width: 570px;
+    height: 144px;
+    background-color: #f5f5f5;
+    color: #505050;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    /* Text style for "." */
+    color: #000000;
+    font-size: 12px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    border: 1px solid #ffffff;
+
+}
+
+.assume_p {
+
+    padding-top: 39px;
+    padding-left: 13px;
+    padding-bottom: 43px;
+    padding-right: 23px;
+}
+
+.l_news {
+    color: #000000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+.oval {
+    margin-right: 67px;
+    width: 98px;
+    height: 139px;
+    border-radius: 49px;
+    border: 1px solid #e8e8e8;
+    background-color: #f7f7f7;
+    float: left;
+    position: relative;
+
+}
+
+.day {
+    color: #000000;
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #000000;
+    padding-top: 32px;
+    padding-left: 35px;
+    padding-bottom: 83px;
+}
+
+.month {
+    color: #9e9e9e;
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #9e9e9e;
+    position: absolute;
+    padding-left: 32px;
+    padding-top: 68px;
+    padding-right: 34px;
+}
+
+.year {
+    color: #9e9e9e;
+    font-family: "Poppins - Medium Italic";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 48px;
+    color: #9e9e9e;
+    padding-left: 35px;
+    padding-top: 90px;
+    padding-right: 35px;
+    position: absolute;
+}
+
+.oval_text {
+    display: flex;
+}
+
+.news_right {
+    width: 50%;
+    float: right;
+
+}
+
+.container_news {
+
+    position: relative;
+    max-width: 1156px;
+    height: 950px;
+    width: 1156px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.news_head {
+    color: #f44336;
+    font-family: "Roboto Condensed";
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 48px;
+}
+
+.news_text {
+    color: #9e9e9e;
+    font-family: "Roboto Condensed";
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.news_left {
+    width: 50%;
+    display: inline-block;
+}
+
+.news_content {
+    height: 80px;
+    width: 310px;
+}
+
+.news_block {
+    display: flex;
+    padding-bottom: 49px;
+    margin-left: 12px;
+}
+
+.wrapper_contacts {
+    margin: 0 auto 0 auto;
+    max-width: 100%;
+    text-align: left;
+    background-size: cover;
+    background-position: center;
+    background-color: #f7f7f7;
+    border-bottom: 1px solid 000000;
+    height: 180px;
+
+}
+
+.menu_other {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid;
+
+}
+
+.menu_link_other {
+    width: 511px;
+    height: 16px;
+    color: #8c8c8c;
+    font-family: "Roboto Condensed";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22.36px;
+    letter-spacing: 0.36px;
+    text-decoration: none;
+    padding-bottom: 29px;
+
+}
+
+.menu_link_other:hover {
+    color: #000000;
+}
+
+.menu_link_other_active {
+    color: #000000;
+    letter-spacing: 0.36px;
+    border-bottom: 3px solid #000000;
+
+}
+
+.menu_other li {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 32px;
+}
+
+.menu_other ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.wrapper5 {
+    height: 663px;
+    background-color: #e1e1e1;
+    justify-content: center;
+    align-items: center;
+}
+
+.autors {
+    color: #f44336;
+    letter-spacing: 0.16px;
+    text-decoration: none;
+}
+
+.item_line {
+    height: 470px;
+    padding-bottom: 91px;
+
+}
+
+.show_more {
+    width: 208px;
+    height: 38px;
+    color: #000000;
+    font-family: "Roboto Condensed";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22.36px;
+    /* Text style for "Show more" */
+    letter-spacing: 0.36px;
+
+    position: absolute;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.wrapper6 {
+    height: 130%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 562px;
+
+
+
+}
+
+.discount_content_left {
+    position: absolute;
+    padding-left: 5%;
+    padding-top: 5%;
+
+}
+
+.dis {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+    text-transform: uppercase;
+}
+
+.game_name3 {
+    color: #f44336;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36px;
+    text-transform: uppercase;
+    padding-bottom: 28px;
+    padding-bottom: 18px;
+}
+
+.now {
+    color: #000000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 48px;
+}
+
+.was {
+    color: #8c8c8c;
+    /* Text style for "$28.90" */
+    text-decoration: line-through;
+    padding-top: 20px;
+}
+
+.dis_buy {
+    width: 265px;
+    height: 62px;
+    border: 1px solid #000000;
+    background-color: #f44336;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 24px;
+    /* Text style for "B, uy" */
+    letter-spacing: 0.3px;
+}
+
+.price {
+    display: flex;
+    padding-bottom: 19px;
+}
+
+.discount_left {
+    display: flex;
+    width: 50%;
+    background-image: url(img/532219.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+    float: left;
+    max-height: 562px;
+}
+
+.discount_right {
+    display: flex;
+    width: 50%;
+    background-image: url(img/cda8d63e371e3da4b332164c3da4ada5.png);
+    height: 100%;
+    max-height: 562px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.same_header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f44336;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    display: flex;
+    padding-top: 49px;
+    padding-bottom: 80px;
+}
+
+.game_name {
+    color: #000000;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36px;
+        justify-content: center;
+    text-align: center;
+}
+
+.game_name2 {
+    color: #f44336;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 36px;
+    padding-left: 180px;
+}
+
+.value {
+    color: #000000;
+    font-family: Poppins;
+    font-size: 62px;
+    font-weight: 300;
+    line-height: 48.02px;
+    padding-left: 142px;
+    padding-top: 21px;
+    padding-bottom: 15px;
+}
+
+.game_info {
+    color: #999999;
+    font-family: "Roboto Condensed";
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+    /* Text style for "The plot i" */
+    letter-spacing: 0.12px;
+    text-align: left;
+    padding-top: 32px;
+}
+
+.product_info {
+    width: 470px;
+    height: 414px;
+    float: right;
+    padding-top: 174px;
+}
+
+.big_button {
+    width: 470px;
+    height: 62px;
+    background-color: #f44336;
+    color: #ffffff;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 24px;
+    /* Text style for "B, uy" */
+    letter-spacing: 0.3px;
+}
+
+.screens {
+    width: 470px;
+    height: 414px;
+    padding-top: 174px;
+}
+
+.screens img {
+    margin-left: 15px;
+}
+
+.screens :nth-child(1) {
+    margin-left: 0px;
+}
+
+.screens :nth-child(2) {
+    margin-top: 40px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.discount_content_right {
+    position: absolute;
+    padding-left: 5%;
+    padding-top: 5.5%;
+}
+
+.contact_header {
+    /* Style for "Services" */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f44336;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    display: flex;
+    padding-top: 92px;
+    padding-bottom: 91px;
+}
+
+
+.arrow {
+    float: right;
+    display: flex;
+    padding-top: 120px;
+    position: absolute;
+    padding-left: 1100px;
+}
+
+.item_button a {
+    text-decoration: none;
+    color: #fee7e5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.show_more a {
+    color: #000000;
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.dis_buy a {
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.big_button a {
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+
+.circle_servises:hover {
+    background-color: #f44336;
+
+}
+
+.circle_servisesr:hover {
+    background-color: #f44336;
+
+}
+
+.item_button:hover {
+    background-color: #bd3228;
+}
+
+.sub_button:hover {
+    background-color: #bd3228;
+}
+
+.sub_button1:hover {
+    background-color: #bd3228;
+}
+
+.dis_buy:hover {
+
+    background-color: #bd3228;
+}
+
+.big_button:hover {
+    background-color: #bd3228;
+}
